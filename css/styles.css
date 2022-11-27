@@ -1,0 +1,143 @@
+.page {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  margin: 0;
+  color: #212121;
+}
+.hero-title {
+  font-size: 44px;
+  color: white;
+  font-weight: 696;
+  text-align: center;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  padding: 10px 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-button {
+  color: #000000;
+  background-color: #f5f4fa;
+  padding: 10px 32px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.text {
+  margin: 10px 0 0 0;
+  color: #757575;
+  font-weight: 400;
+}
+.list-title {
+  font-size: 14px;
+  margin: 0;
+}
+.title {
+  margin: 94px 0px 50px 0px;
+  font-size: 36px;
+  text-align: center;
+}
+.business-block {
+  background-color: #2f303a;
+  padding: 200px 0;
+}
+
+/* --- */
+.header {
+  padding: 24px 0;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 93px;
+}
+.logo-1 {
+  color: #2196f3;
+}
+.logo-2 {
+  color: #000000;
+}
+.logo-3 {
+  color: #ffffff;
+}
+/* --- */
+.links {
+  list-style: none;
+  display: flex;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 50px;
+}
+.link:hover {
+  color: #2196f3;
+}
+.team-block {
+  background-color: #f5f4fa;
+  font-size: 16px;
+}
+.service-block {
+  margin-bottom: 94px;
+}
+.stuff-card {
+  background-color: #ffffff;
+}
+.stuff-title {
+  margin: 30px 0 0 0;
+}
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+}
+.footer-link {
+  margin: 9px 0 0 0;
+  list-style: none;
+}
+.address {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.navigation {
+  color: #ffffff;
+}
+.good-title {
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
+.buttons {
+  margin-top: 94px;
+}
+.goods {
+  margin: 34px 0 94px 0;
+}
