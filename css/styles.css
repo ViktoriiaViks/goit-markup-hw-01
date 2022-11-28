@@ -1,19 +1,29 @@
+:root {
+  --active-color: #2196f3;
+  --main-text-color: #000;
+  --text-color: #212121;
+  --main-back-color: #ffffff;
+  --section-color: #2f303a;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --team-back-color:  #f5f4fa;
+
+}
 .page {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  background-color: #fff;
+  background-color: var(--main-back-color);
   margin: 0;
-  color: #212121;
+  color: var(--main-text-color);
 }
 .hero-title {
   font-size: 44px;
-  color: white;
+  color: var(--main-back-color);
   font-weight: 696;
   text-align: center;
 }
 .button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--main-back-color);
+  background-color: var(--active-color);
   padding: 10px 32px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -23,7 +33,7 @@
   cursor: pointer;
 }
 .filter-button {
-  color: #000000;
+  color: var(--main-text-color)
   background-color: #f5f4fa;
   padding: 10px 32px;
   font-family: Roboto, sans-serif;
@@ -34,8 +44,8 @@
   cursor: pointer;
 }
 .filter-button:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--active-color);
+  color: var(--main-back-color);
 }
 .list {
   list-style: none;
@@ -48,29 +58,34 @@
 .list-title {
   font-size: 14px;
   margin: 0;
+  color: var(--text-color);
 }
 .title {
   margin: 94px 0px 50px 0px;
   font-size: 36px;
   text-align: center;
+  color:var(--text-color);
 }
 .business-block {
-  background-color: #2f303a;
+  background-color: var(--section-color);
   padding: 200px 0;
 }
 
 /* --- */
 .header {
   padding: 24px 0;
+  background-color: var(--main-back-color);
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--text-color);
 }
 .nav-left {
   display: flex;
   align-items: center;
+  color: var(--text-color);
 }
 
 .logo {
@@ -81,43 +96,44 @@
   margin-right: 93px;
 }
 .logo-1 {
-  color: #2196f3;
+  color: var(--active-color);
 }
 .logo-2 {
-  color: #000000;
+  color: var(--main-text-color);
 }
 .logo-3 {
-  color: #ffffff;
+  color: var(--main-back-color);
 }
 /* --- */
 .links {
   list-style: none;
   display: flex;
+  color: var(--text-color);
 }
 .link {
-  color: #212121;
+  color:var(--text-color);
   text-decoration: none;
   font-weight: 500;
   margin-right: 50px;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--active-color);
 }
 .team-block {
-  background-color: #f5f4fa;
+  background-color: var(--team-back-color);
   font-size: 16px;
 }
 .service-block {
   margin-bottom: 94px;
 }
 .stuff-card {
-  background-color: #ffffff;
+  background-color:var(--main-back-color);
 }
 .stuff-title {
   margin: 30px 0 0 0;
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--section-color);
   padding: 60px 0;
 }
 .footer-link {
@@ -126,10 +142,11 @@
 }
 .address {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--address-color);
+  font-size: normal;
 }
 .navigation {
-  color: #ffffff;
+  color: var(--main-back-color);
 }
 .good-title {
   margin: 20px 0 0 0;
